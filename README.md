@@ -1,14 +1,11 @@
 # Feature Engineering
 Current Feature-engine's transformers include functionality for:
-# Missing Data Imputation
-# Categorical Variable Encoding
-# Outlier Capping or Removal
-# Discretisation
-# Numerical Variable Transformation
-Variable Creation
-Variable Selection
-Scikit-learn Wrappers
-Imputing Methods
+* **Missing Data Imputation**
+* **Categorical Variable Encoding**
+* **Outlier Capping or Removal**
+* **Discretisation**
+
+## Imputing Methods## 
 MeanMedianImputer
 RandomSampleImputer
 EndTailImputer
