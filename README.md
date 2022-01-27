@@ -5,7 +5,7 @@ Current Feature-engine's transformers include functionality for:
 * **Outlier Capping or Removal**
 * **Discretisation**
 
-## Imputing Methods## 
+## Imputing Methods
 MeanMedianImputer
 RandomSampleImputer
 EndTailImputer
@@ -13,7 +13,7 @@ AddMissingIndicator
 CategoricalImputer
 ArbitraryNumberImputer
 DropMissingData
-Encoding Methods
+## Encoding Methods
 OneHotEncoder
 OrdinalEncoder
 CountFrequencyEncoder
@@ -22,7 +22,7 @@ WoEEncoder
 PRatioEncoder
 RareLabelEncoder
 DecisionTreeEncoder
-Outlier Handling methods
+## Outlier Handling methods
 Winsorizer
 ArbitraryOutlierCapper
 OutlierTrimmer
@@ -31,7 +31,7 @@ EqualFrequencyDiscretiser
 EqualWidthDiscretiser
 DecisionTreeDiscretiser
 ArbitraryDiscreriser
-Variable Transformation methods
+## Variable Transformation methods
 LogTransformer
 LogCpTransformer
 ReciprocalTransformer
@@ -44,7 +44,7 @@ Variable Creation:
 MathematicalCombination
 CombineWithReferenceFeature
 CyclicalTransformer
-Feature Selection:
+## Feature Selection:
 DropFeatures
 DropConstantFeatures
 DropDuplicateFeatures
