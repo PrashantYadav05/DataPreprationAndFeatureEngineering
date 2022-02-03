@@ -91,3 +91,19 @@ SelectBySingleFeaturePerformance
 SelectByTargetMeanPerformance
 RecursiveFeatureElimination
 RecursiveFeatureAddition
+
+## Deriving Features from Dates and Time Variables:
+* Extracting date and time parts from a datetime variable
+* Deriving representations of the year and month
+* Creating representations of day and week
+* Extracting time parts from a time variable
+* Capturing the elapsed time between datetime variables
+* Working with time in different time zones
+
+## Performing Feature Scaling:
+* Standardizing the features
+* Performing mean normalization
+* Scaling to the maximum and minimum values
+* Implementing maximum absolute scaling
+* Scaling with the median and quantiles
+* Scaling to vector unit length
