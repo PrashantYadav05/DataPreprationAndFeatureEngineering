@@ -80,7 +80,9 @@ CyclicalTransformer
 * Performing discretization with k-means clustering
 * Using decision trees for discretization
 
-## Feature Selection:
+## Feature Selection: 
+Feature selection methods are intended to reduce the number of input variables to those that are believed to be most useful to a model in order to predict the target variable.
+
 DropFeatures
 DropConstantFeatures
 DropDuplicateFeatures
