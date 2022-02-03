@@ -40,7 +40,18 @@ EqualFrequencyDiscretiser
 EqualWidthDiscretiser
 DecisionTreeDiscretiser
 ArbitraryDiscreriser
+
 ## Variable Transformation methods
+* Transforming variables with the logarithm.
+* Transforming variables with the reciprocal function.
+* Using square and cube root to transform variables.
+* Using power transformations on numerical variables.
+* Performing Box-Cox transformation on numerical variables.
+* Performing Yeo-Johnson transformation on numerical variables.
+
+
+
+
 LogTransformer
 LogCpTransformer
 ReciprocalTransformer
