@@ -64,6 +64,16 @@ Variable Creation:
 MathematicalCombination
 CombineWithReferenceFeature
 CyclicalTransformer
+
+
+## Performing variable "Discretization":
+* Dividing the variable into intervals of equal width
+* Sorting the variable values in intervals of equal frequency
+* Performing discretization followed by categorical encoding
+* Allocating the variable values in arbitrary intervals
+* Performing discretization with k-means clustering
+* Using decision trees for discretization
+
 ## Feature Selection:
 DropFeatures
 DropConstantFeatures
