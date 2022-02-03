@@ -32,9 +32,15 @@ Current Feature-engine's transformers include functionality for:
 * Performing binary encoding.
 * Performing feature hashing.
 ## Outlier Handling methods
+* Trimming outliers from the dataset
+* Performing winsorization
+* Capping the variable at arbitrary maximum and minimum values
+* Performing zero-coding – capping the variable values at zero
+
+
 Winsorizer
 ArbitraryOutlierCapper
-OutlierTrimmer
+
 Discretisation methods
 EqualFrequencyDiscretiser
 EqualWidthDiscretiser
