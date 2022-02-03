@@ -41,7 +41,7 @@ EqualWidthDiscretiser
 DecisionTreeDiscretiser
 ArbitraryDiscreriser
 
-## Variable Transformation methods
+## Variable transformation methods
 * Transforming variables with the logarithm.
 * Transforming variables with the reciprocal function.
 * Using square and cube root to transform variables.
