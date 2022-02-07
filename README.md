@@ -109,3 +109,9 @@ RecursiveFeatureAddition
 * Implementing maximum absolute scaling
 * Scaling with the median and quantiles
 * Scaling to vector unit length
+
+## Working with Outliers:
+* Trimming outliers from the dataset
+* Performing winsorization
+* Capping the variable at arbitrary maximum and minimum values
+* Performing zero-coding – capping the variable values at zero
