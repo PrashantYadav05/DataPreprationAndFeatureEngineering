@@ -5,7 +5,7 @@ Current Feature-engine's transformers include functionality for:
 * **Outlier Capping or Removal**
 * **Discretisation**
 
-## Data imputation techniques: The act of replacing missing data with statistical estimates of missing values is called imputation.
+## Data imputation techniques: ## The act of replacing missing data with statistical estimates of missing values is called imputation.
 * Removal of column varibales having only a single value.
 * Consideration of column varibale with very few unique values.
 * Rows that contains duplicate value.
