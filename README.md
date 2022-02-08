@@ -5,23 +5,24 @@ Current Feature-engine's transformers include functionality for:
 * **Outlier Capping or Removal**
 * **Discretisation**
 
-## Data imputation techniques: ## The act of replacing missing data with statistical estimates of missing values is called imputation.
+## Data imputation techniques:
 * Removal of column varibales having only a single value.
 * Consideration of column varibale with very few unique values.
 * Rows that contains duplicate value.
-* Performing mean or median imputation.
-* Implementing mode or frequent category imputation.
-* Replacing missing values with an arbitrary number.
+* Performing mean or median imputation (replacing with mean  if normally distributed otherwise median,  may distort the distribution if high percentage of missing data is present)
+* Implementing mode or frequent category imputation ( If the percentage of missing values is high may distort the original distribution of categories) 
+* Replacing missing values with an arbitrary number(when data is not missing at random, while building non-linear models, may distort the distribution if high percentage of missing data is present)
 * Capturing missing values in a bespoke category.
-* Replacing missing values with a value at the end of the distribution.
-* Implementing random sample imputation.
+* Replacing missing values with a value at the end of the distribution (End-of-tail imputation may distort the distribution of the original
+variables may not be suitable for linear models)
+* Implementing random sample imputation(Preserves the original distribution)
 * Adding a missing value indicator variable.
 * Performing multivariate imputation by chained equations.
 * Assembling an imputation pipeline with scikit-learn.
 * Assembling an imputation pipeline with Feature-engine
 
 ## Encoding techniques:
-* Creating binary variables through one-hot encoding.
+* Creating binary variables through one-hot encoding (When determining the importance of each category within a variable, when training decision trees)
 * Performing one-hot encoding of frequent categories,
 * Replacing categories with ordinal numbers.
 * Replacing categories with counts or frequency of observations.
