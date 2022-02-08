@@ -115,3 +115,6 @@ RecursiveFeatureAddition
 * Performing winsorization
 * Capping the variable at arbitrary maximum and minimum values
 * Performing zero-coding – capping the variable values at zero
+
+## Dimesionality reduction:
+* How to Perform SVD Dimensionality Reduction
