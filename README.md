@@ -1,9 +1,5 @@
 # Data preprations & Feature Engineering
-Current Feature-engine's transformers include functionality for:
-* **Missing Data Imputation**
-* **Categorical Variable Encoding**
-* **Outlier Capping or Removal**
-* **Discretisation**
+The process of transforming raw data into a form that is more appropriate for modeling.
 
 ## Data imputation techniques:
 * Removal of column varibales having only a single value.
