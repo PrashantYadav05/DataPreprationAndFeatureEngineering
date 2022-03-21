@@ -18,9 +18,11 @@ variables may not be suitable for linear models)
 * Assembling an imputation pipeline with Feature-engine
 
 ## Encoding techniques:
-* Creating binary variables through one-hot encoding (When determining the importance of each category within a variable, when training decision trees)
+* Creating binary variables through one-hot encoding (A categorical variable with k unique categories can be encoded in k-1 binary variables, When determining the importance of each category within a variable encode in k binary varibles, when training decision trees)
 * Performing one-hot encoding of frequent categories,
-* Replacing categories with ordinal numbers.
+In addition to being slightly less redundant, a dummy variable representation is requiredfor some models. For example, in the case of a linear regression model (and other regression models that have a bias term), a one hot encoding will cause the matrix of input data to
+become singular, meaning it cannot be inverted and the linear regression coeficients cannot be calculated using linear algebra. For these types of models a dummy variable encoding must beused instead.
+* Replacing categories with ordinal numbers. (better suited for nonlinear machine learning models)
 * Replacing categories with counts or frequency of observations.
 * Encoding with integers in an ordered manner.
 * Encoding with the mean of the target.
