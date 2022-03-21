@@ -77,19 +77,14 @@ CyclicalTransformer
 * Performing discretization with k-means clustering
 * Using decision trees for discretization
 
-## Feature Selection: ## 
+## Feature Selection: 
 Feature selection methods are intended to reduce the number of input variables to those that are believed to be most useful to a model in order to predict the target variable.
 
-DropFeatures
-DropConstantFeatures
-DropDuplicateFeatures
-DropCorrelatedFeatures
-SmartCorrelationSelection
-ShuffleFeaturesSelector
-SelectBySingleFeaturePerformance
-SelectByTargetMeanPerformance
-RecursiveFeatureElimination
-RecursiveFeatureAddition
+* Mutual Information Feature Selection: Mutual information is calculated between two variables and measures the reduction in uncertainty for one variable given a known value of the other variable.
+* Numerical input data and a categorical (class) target variable (ANOVA F-Statistic, Mutual Information Feature Selection)
+* Numerical input data and a numerical target variable (Correlation Statistics, Mutual Information Statistics)
+* How to Use RFE for Feature Selection.
+* Feature importance:Feature importance refers to techniques that assign a score to input features based on how useful they are at predicting a target variable.
 
 ## Deriving Features from Dates and Time Variables:
 * Extracting date and time parts from a datetime variable
