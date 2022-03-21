@@ -80,7 +80,7 @@ CyclicalTransformer
 ## Feature Selection: 
 Feature selection methods are intended to reduce the number of input variables to those that are believed to be most useful to a model in order to predict the target variable.
 
-* Mutual Information Feature Selection: Mutual information is calculated between two variables and measures the reduction in uncertainty for one variable given a known value of the other variable.
+* Categorical input data when the target variable is also categorical ( chi-squared statistic and the mutual information statistic) Mutual information is calculated between two variables and measures the reduction in uncertainty for one variable given a known value of the other variable.
 * Numerical input data and a categorical (class) target variable (ANOVA F-Statistic, Mutual Information Feature Selection)
 * Numerical input data and a numerical target variable (Correlation Statistics, Mutual Information Statistics)
 * How to Use RFE for Feature Selection.
